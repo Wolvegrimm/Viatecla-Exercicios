@@ -37,9 +37,6 @@
         zoom: 12
       });
 
-       var bounds = new google.maps.LatLngBounds();
-
-
       $.ajax({
                 url: 'http://dev.scriptor.viatecla.pt/training/REST/contentlistconditional',
                 data: { authentication: 'anonymous', channelPath: '/raiz/repositorio/foto', first: '0', max: '-1', fieldlist: '*', sort: 'dte_init,desc'},
